@@ -1,0 +1,146 @@
+/* Blogs Page Styles */
+.blogs-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.blogs-top-image-container {
+  text-align: center;
+}
+
+.blogs-top-image {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 8px;
+}
+
+.blogs-list-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 30px;
+  color: #333;
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.blogs-blog-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.blogs-blog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blogs-blog-details {
+  padding: 15px;
+}
+
+.blogs-blog-author {
+  font-size: 1rem;
+  color: #777;
+}
+
+.blogs-blog-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.blogs-blog-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.blogs-blog-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.blogs-edit-button,
+.blogs-delete-button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blogs-delete-button {
+  background-color: #e74c3c;
+}
+
+.blogs-edit-button:hover,
+.blogs-delete-button:hover {
+  opacity: 0.8;
+}
+
+.blogs-blog-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.blogs-action-icon {
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.blogs-edit-icon {
+  color: #007bff;
+}
+
+.blogs-delete-icon {
+  color: #e74c3c;
+}
+
+.blogs-edit-icon:hover {
+  color: #0056b3;
+}
+
+.blogs-delete-icon:hover {
+  color: #c0392b;
+}
+
+/* Category Dropdown Styles */
+.category-dropdown {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-label {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.category-select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.category-select:hover {
+  border-color: #007bff;
+}

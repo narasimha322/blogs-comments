@@ -1,0 +1,131 @@
+.comments-container {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .comments-heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comments-icon {
+    font-size: 1.8rem;
+    color: #007bff;
+  }
+  
+  .comments-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .comments-textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .comments-submit-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .comments-submit-button:hover {
+    color: #0056b3;
+  }
+  
+  .comments-list {
+    margin-top: 20px;
+  }
+  
+  .comments-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comments-content {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .comments-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .comments-action-icon {
+    font-size: 0.89rem;
+    cursor: pointer;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .comments-action-icon:hover {
+    color: #0056b3;
+  }
+  
+  .comments-delete-icon {
+    color: #e74c3c;
+  }
+  
+  .comments-delete-icon:hover {
+    color: #c0392b;
+  }
+  
+  .comments-empty {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .comments-editing-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .comments-editing-textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .comments-update-button,
+  .comments-cancel-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comments-update-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .comments-cancel-button {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  

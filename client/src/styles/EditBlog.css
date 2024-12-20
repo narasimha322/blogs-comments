@@ -1,0 +1,88 @@
+/* EditBlog Component Styling */
+.edit-blog-container {
+    max-width: 600px;
+    margin: 35px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-blog-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .edit-blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .edit-blog-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-blog-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .edit-blog-input,
+  .edit-blog-textarea,
+  .edit-blog-file-input {
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .edit-blog-input:focus,
+  .edit-blog-textarea:focus,
+  .edit-blog-file-input:focus {
+    border-color: #28a745;
+  }
+  
+  .edit-blog-textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+  
+  .edit-blog-submit {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-blog-submit:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .edit-blog-container {
+      padding: 15px;
+    }
+  
+    .edit-blog-title {
+      font-size: 20px;
+    }
+  
+    .edit-blog-submit {
+      font-size: 14px;
+    }
+  }
+  

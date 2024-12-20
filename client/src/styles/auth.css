@@ -1,0 +1,113 @@
+/* auth.css */
+
+/* Common container styles for both Register and Login */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.auth-container .auth-logo {
+    width: 80px; /* Adjust the size of the logo */
+    margin-bottom: 20px;
+}
+
+.auth-container h1 {
+    display: none; /* Hiding the title since logo is used */
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    border-bottom: 2px solid #ddd; /* Solid bottom border */
+    outline: none;
+    background-color: transparent;
+}
+
+.auth-container input:focus {
+    border-bottom-color: #5f9ea0; /* Change bottom border color when focused */
+}
+
+/* Styling for Login and Register buttons with orange background */
+.auth-container button.login-register {
+    padding: 12px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 30px;
+}
+
+
+/* Styling for other buttons with white background */
+.auth-container button.other-button {
+    padding: 12px;
+    background-color: white;
+    border: 2px solid #ddd;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    width: 100%;
+    max-width: 300px;
+}
+
+.auth-container button.other-button:hover {
+    background-color: #f0f0f0; /* Light gray on hover */
+    border-color: #ea8d6b;
+}
+
+.auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.auth-container a {
+    color: #5f9ea0;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}
+
+.auth-container .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.signup-option {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-option a {
+    color: #5f9ea0;
+    text-decoration: none;
+}
+
+.signup-option a:hover {
+    text-decoration: underline;
+}
